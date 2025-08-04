@@ -38,7 +38,9 @@ In the minimap icon this adds you can configure the behavior for the following:
 ### 6.  Download the latest SuperWoW dll from here https://github.com/balakethelock/SuperWoW/releases/tag/Release and place in your TWow folder next to WoW.exe.  You only need the dll you don't need the launcher.
 <hr>
 
-### 7.  Make sure SuperWoWhook.dll is in your dlls.txt file.  This file is located in your TWow folder next to WoW.exe.  
+### 7A.  If using the TWOW Launcher enable the superwow mod in the mods tab.  This will cause it to get added to the dlls.txt file and prevent it from getting removed on future launches.
+
+### 7B.  Otherwise make sure SuperWoWhook.dll is in your dlls.txt file.  This file is located in your TWow folder next to WoW.exe.  
 If you are using vanillafixes it should already be there, if using the TWOW launcher you'll need to add it yourself.  The order doesn't matter, here's an example of the contents of my dlls.txt:
 
 ![image](https://github.com/user-attachments/assets/09e5e5fb-657e-42a0-968a-24920bf27e14)
