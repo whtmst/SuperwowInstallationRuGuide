@@ -1,80 +1,88 @@
-# Superwow Installation Guide
+# Руководство по установке Superwow
 <hr>
 
-![image](https://github.com/pepopo978/SuperwowInstallation/assets/149287158/833d8d7e-c0c9-456a-9886-dc913ec07bfa)
-### 1.  Disable windows real time protection (it will turn back on automatically after a short time) as it will block downloading vanillafixes and superwow.  
+![image](https://github.com/pepopo978/SuperwowInstallation/assets/149287158/833d8d7e-c0c9-456a-9886-d913ec07bfa)
+
+### 1. Отключите защиту в реальном времени в Windows (она автоматически включится через некоторое время), так как она блокирует загрузку vanillafixes и superwow.
 <hr>
 
 ![image](https://github.com/pepopo978/SuperwowInstallation/assets/149287158/4e54f864-445b-4fb8-a8f6-f1c58eb53fc1)
-### 2.  While you have windows security open, add a folder exclusion for your base turtle wow folder (where WoW.exe is) so that it doesn't remove vanillafixes/superwow later on out of nowhere.
+
+### 2. Пока открыт центр безопасности Windows, добавьте исключение для папки с Turtle WoW (там, где находится WoW.exe), чтобы защита не удалила vanillafixes/superwow в будущем.
 <hr>
 
-### 3A. If you plan on using the TWOW launcher:
-#### 1. Go to the addons tab and add Superapi
-#### 2. Skip to [step 6](https://github.com/pepopo978/SuperwowInstallation?tab=readme-ov-file#6--download-the-latest-superwow-dll-from-here-httpsgithubcombalakethelocksuperwowreleasestagrelease-and-place-in-your-twow-folder-next-to-wowexe--you-only-need-the-dll-you-dont-need-the-launcher) 
+### 3A. Если вы планируете использовать лаунчер TWOW:
+#### 1. Перейдите на вкладку аддонов и добавьте Superapi
+#### 2. Перейдите к [шагу 6](https://github.com/pepopo978/SuperwowInstallation?tab=readme-ov-file#6--скачайте-последнюю-версию-superwow-dll-отсюда-httpsgithubcombalakethelocksuperwowreleasestagrelease-и-положите-в-папку-с-twow-рядом-с-wowexe--вам-нужен-только-dll-лаунчер-не-нужен)
 <br/>
 
-### 3B.  Otherwise: Download the latest vanilla fixes (>= version 1.4) if you don't already have it from here https://github.com/hannesmann/vanillafixes/releases and place in your TWow folder next to WoW.exe.  
-You may need to add `d3d9.enableDialogMode = True` to your dxvk.conf file if you are getting black screens when alt-tabbing or switching windows.
+### 3B. Если НЕ используете лаунчер TWOW: 
+Скачайте последнюю версию Vanilla Fixes (версия 1.4 или выше), если у вас её ещё нет, отсюда: https://github.com/hannesmann/vanillafixes/releases и поместите файл в папку с Turtle WoW рядом с WoW.exe.
+
+Если при переключении между окнами у вас появляется чёрный экран, добавьте строку `d3d9.enableDialogMode = True` в файл dxvk.conf.
 <hr>
 
-### 4.  (Optional) If you want VanillaTweaks as well:
-- Download tweaks here https://github.com/brndd/vanilla-tweaks?tab=readme-ov-file#current-patches and place in your TWow folder next to WoW.exe
-- Copy + paste `WoW.exe` so you have a backup of it
-- Drag `WoW.exe` on top of `vanilla_tweaks.exe` or run `./vanilla-tweaks WoW.exe` from the command line in the directory containing `WoW.exe` and `vanilla-tweaks.exe`.  If you want to specify specific options like increasing nameplate range you have to use the command line.  See https://github.com/brndd/vanilla-tweaks?tab=readme-ov-file#usage for examples
-- Rename either `WoW_tweaked` to `WoW` or `WoW_tweaked.exe` to `WoW.exe` depending on whether you have "Show file extensions" turned on in Windows.  Be careful not to accidentally make the filename `WoW.exe.exe` if you don't have "Show file extensions" turned on in windows.
+### 4. (Опционально) Если вы хотите также установить VanillaTweaks:
+- Скачайте tweaks отсюда: https://github.com/brndd/vanilla-tweaks?tab=readme-ov-file#current-patches и поместите в папку с Turtle WoW рядом с WoW.exe
+- Сделайте копию файла `WoW.exe` (на всякий случай)
+- Перетащите `WoW.exe` на `vanilla_tweaks.exe` ИЛИ запустите команду `./vanilla-tweaks WoW.exe` из командной строки в папке, где лежат `WoW.exe` и `vanilla-tweaks.exe`. Если вы хотите указать конкретные настройки (например, увеличение дистанции отображения индикаторов здоровья),你必须使用命令行. Смотрите примеры здесь: https://github.com/brndd/vanilla-tweaks?tab=readme-ov-file#usage
+- Переименуйте `WoW_tweaked` в `WoW` ИЛИ `WoW_tweaked.exe` в `WoW.exe` (в зависимости от того, включено ли в Windows отображение расширений файлов). Будьте внимательны, чтобы случайно не получить файл с именем `WoW.exe.exe`, если отображение расширений выключено.
 <hr>
 
-### 5.  Download the latest SuperWoW api addon from here https://github.com/balakethelock/SuperAPI and place in Interface/Addons making sure to remove the "-master" suffix appended by github.  
-In the minimap icon this adds you can configure the behavior for the following:
-- autoloot
-- clickthrough
-- background sound
-- sound cap
-- fov
-- selection style
+### 5. Скачайте последнюю версию аддона SuperWoW API отсюда: https://github.com/balakethelock/SuperAPI и поместите его в папку `Interface/Addons`, убедившись, что убрали суффикс "-master", который добавляет GitHub.
+
+В иконке на миникарте, которую добавляет этот аддон, вы можете настроить следующие параметры:
+- Автоматический сбор добычи
+- Сквозное нажатие
+- Звук в фоновом режиме
+- Лимит звуков
+- Поле зрения
+- Стиль выделения целей
 <hr>
 
-### 6.  Download the latest SuperWoW dll from here https://github.com/balakethelock/SuperWoW/releases/tag/Release and place in your TWow folder next to WoW.exe.  You only need the dll you don't need the launcher.
+### 6. Скачайте последнюю версию SuperWoW DLL отсюда: https://github.com/balakethelock/SuperWoW/releases/tag/Release и поместите в папку с Turtle WoW рядом с WoW.exe. Вам нужен ТОЛЬКО файл DLL, лаунчер НЕ нужен.
 <hr>
 
-### 7A.  If using the TWOW Launcher enable the superwow mod in the mods tab.  This will cause it to get added to the dlls.txt file and prevent it from getting removed on future launches.
+### 7A. Если используете лаунчер TWOW, включите мод superwow на вкладке модов. Это добавит его в файл dlls.txt и предотвратит его удаление при последующих запусках.
 
-### 7B.  Otherwise make sure SuperWoWhook.dll is in your dlls.txt file.  This file is located in your TWow folder next to WoW.exe.  
-If you are using vanillafixes it should already be there, if using the TWOW launcher you'll need to add it yourself.  The order doesn't matter, here's an example of the contents of my dlls.txt:
+### 7B. Если НЕ используете лаунчер, убедитесь, что `SuperWoWhook.dll` указан в вашем файле `dlls.txt`. Этот файл находится в папке с Turtle WoW рядом с WoW.exe.
+
+Если вы используете vanillafixes, он уже должен быть там. Порядок не имеет значения. Вот пример содержимого моего файла dlls.txt:
 
 ![image](https://github.com/user-attachments/assets/09e5e5fb-657e-42a0-968a-24920bf27e14)
 
 <hr>
 
-### 8.  (Optional) If you want to see improved enemy castbars pick ONE of these options:
-<b>Don't use both of these together.</b>
-#### Option 1 PFUI
-Download the latest PFUI from here https://github.com/shagu/pfUI and place in Interface/Addons making sure to remove the "-master" suffix appended by github.
-#### Option 2 SuperAPI_Castlib
-Download the latest SuperWoW castlib addon from here https://github.com/balakethelock/SuperAPI_Castlib and place in Interface/Addons making sure to remove the "-master" suffix appended by github.
+### 8. (Опционально) Если вы хотите видеть улучшенные полосы заклинаний противников, выберите ОДИН из вариантов:
+<b>НЕ ИСПОЛЬЗУЙТЕ оба варианта вместе.</b>
+
+#### Вариант 1: PFUI
+Скачайте последнюю версию PFUI отсюда: https://github.com/shagu/pfUI и поместите в папку `Interface/Addons`, убедившись, что убрали суффикс "-master", который добавляет GitHub.
+
+#### Вариант 2: SuperAPI_Castlib
+Скачайте последнюю версию аддона SuperWoW castlib отсюда: https://github.com/balakethelock/SuperAPI_Castlib и поместите в папку `Interface/Addons`, убедившись, что убрали суффикс "-master", который добавляет GitHub.
 <hr>
 
-### 9.  If using the TWOW launcher use that to start the game.  Otherwise launch VanillaFixes.exe to start the game.  The first time it should pop up a dialog saying which dlls it is loading and SuperWoW should be one of them.
+### 9. Если используете лаунчер TWOW, запускайте игру через него. В противном случае запускайте игру через `VanillaFixes.exe`. При первом запуске должно появиться окно со списком загружаемых DLL, и SuperWoW должен быть среди них.
 <hr>
 
-### 10.  In game open up a macro and if you have 512 allowed characters Superwow is working
+### 10. В игре откройте окно создания макроса. Если у вас доступно 512 символов для макроса — Superwow работает корректно.
 <hr>
 
-### 11.  (Optional) Ignore this if already did this when installing SuperAPI.  If you were using vanillatweaks for sounds while the game is in the background, run `/run SetCVar("BackgroundSound", "1")` to reenable that.  Can also do `/run SetCVar("UncapSounds", "1");SetCVar("SoundMaxHardwareChannels", "64");SetCVar("SoundSoftwareChannels", "64");` to enable the game to play more simultaneous sounds.
- 
-Can view other CVars and features provided here https://github.com/balakethelock/SuperWoW/wiki/Features
+### 11. (Опционально) Пропустите этот шаг, если уже сделали это при установке SuperAPI. Если вы использовали VanillaTweaks для работы звука, когда игра свёрнута, выполните команду `/run SetCVar("BackgroundSound", "1")`, чтобы снова включить эту функцию. Также можно выполнить `/run SetCVar("UncapSounds", "1");SetCVar("SoundMaxHardwareChannels", "64");SetCVar("SoundSoftwareChannels", "64");`, чтобы позволить игре воспроизводить больше звуков одновременно.
 
-### 12. If you are getting either of these errors launching
+Другие CVar'ы и функции можно посмотреть здесь: https://github.com/balakethelock/SuperWoW/wiki/Features
+
+### 12. Если при запуске вы получаете одну из этих ошибок:
 ![image](https://github.com/user-attachments/assets/00807ba1-53a3-4485-be76-a83c866bc48b)
 ![image](https://github.com/user-attachments/assets/a017feb5-87d9-429e-9252-156554ecd113)
 
-On Windows: Go to Control Panel > System and Security > System > Advanced system settings. Under Performance, click Settings, then the Data Execution Prevention tab.
+В Windows: Перейдите в Панель управления > Система и безопасность > Система > Дополнительные параметры системы. В разделе "Быстродействие" нажмите "Параметры", затем перейдите на вкладку "Предотвращение выполнения данных".
 
-Select Turn on DEP for all programs and services except those I select, and add WoW.exe to the list. (Remember to remove this later if it doesn’t help you.)
+Выберите "Включить DEP для всех программ и служб, кроме выбранных ниже" и добавьте `WoW.exe` в список исключений. (Не забудьте убрать его оттуда позже, если это не помогло.)
 
-This can also be caused by not having any Visual c++ redistributables installed, try installing using this link:
+Эта ошибка также может быть вызвана отсутствием распространяемых пакетов Visual C++. Попробуйте установить их по этим ссылкам:
 
-32 bit x86: https://aka.ms/vs/17/release/vc_redist.x86.exe (probably just need this one)
+32-битная версия (x86): https://aka.ms/vs/17/release/vc_redist.x86.exe (скорее всего, нужна только эта)
 
-64 bit x64:https://aka.ms/vs/17/release/vc_redist.x64.exe
+64-битная версия (x64): https://aka.ms/vs/17/release/vc_redist.x64.exe
