@@ -1,19 +1,19 @@
 # Руководство по установке Superwow
 <hr>
 
-![image](https://github.com/pepopo978/SuperwowInstallation/assets/149287158/833d8d7e-c0c9-456a-9886-d913ec07bfa)
+![image](https://github.com/whtmst/SuperwowInstallationRuGuide/blob/main/img/1.png)
 
 ### 1. Отключите защиту в реальном времени в Windows (она автоматически включится через некоторое время), так как она блокирует загрузку vanillafixes и superwow.
 <hr>
 
-![image](https://github.com/pepopo978/SuperwowInstallation/assets/149287158/4e54f864-445b-4fb8-a8f6-f1c58eb53fc1)
+![image](https://github.com/whtmst/SuperwowInstallationRuGuide/blob/main/img/2.png)
 
 ### 2. Пока открыт центр безопасности Windows, добавьте исключение для папки с Turtle WoW (там, где находится WoW.exe), чтобы защита не удалила vanillafixes/superwow в будущем.
 <hr>
 
 ### 3A. Если вы планируете использовать лаунчер TWOW:
-#### 1. Перейдите на вкладку аддонов и добавьте Superapi
-#### 2. Перейдите к [шагу 6](https://github.com/pepopo978/SuperwowInstallation?tab=readme-ov-file#6--скачайте-последнюю-версию-superwow-dll-отсюда-httpsgithubcombalakethelocksuperwowreleasestagrelease-и-положите-в-папку-с-twow-рядом-с-wowexe--вам-нужен-только-dll-лаунчер-не-нужен)
+#### 1. Перейдите на вкладку аддонов и добавьте аддон [Superapi](https://github.com/balakethelock/SuperAPI)
+#### 2. Перейдите к [шагу 6](#6-скачайте-последнюю-версию-superwow-dll-и-положите-в-папку-с-twow-рядом-с-wowexe)
 <br/>
 
 ### 3B. Если НЕ используете лаунчер TWOW: 
@@ -25,7 +25,7 @@
 ### 4. (Опционально) Если вы хотите также установить VanillaTweaks:
 - Скачайте tweaks отсюда: https://github.com/brndd/vanilla-tweaks?tab=readme-ov-file#current-patches и поместите в папку с Turtle WoW рядом с WoW.exe
 - Сделайте копию файла `WoW.exe` (на всякий случай)
-- Перетащите `WoW.exe` на `vanilla_tweaks.exe` ИЛИ запустите команду `./vanilla-tweaks WoW.exe` из командной строки в папке, где лежат `WoW.exe` и `vanilla-tweaks.exe`. Если вы хотите указать конкретные настройки (например, увеличение дистанции отображения индикаторов здоровья),你必须使用命令行. Смотрите примеры здесь: https://github.com/brndd/vanilla-tweaks?tab=readme-ov-file#usage
+- Перетащите `WoW.exe` на `vanilla_tweaks.exe` ИЛИ запустите команду `./vanilla-tweaks WoW.exe` из командной строки в папке, где лежат `WoW.exe` и `vanilla-tweaks.exe`. Если вы хотите указать конкретные настройки (например, увеличение дистанции отображения индикаторов здоровья), используйте командную строку. Смотрите примеры здесь: https://github.com/brndd/vanilla-tweaks?tab=readme-ov-file#usage
 - Переименуйте `WoW_tweaked` в `WoW` ИЛИ `WoW_tweaked.exe` в `WoW.exe` (в зависимости от того, включено ли в Windows отображение расширений файлов). Будьте внимательны, чтобы случайно не получить файл с именем `WoW.exe.exe`, если отображение расширений выключено.
 <hr>
 
@@ -49,7 +49,7 @@
 
 Если вы используете vanillafixes, он уже должен быть там. Порядок не имеет значения. Вот пример содержимого моего файла dlls.txt:
 
-![image](https://github.com/user-attachments/assets/09e5e5fb-657e-42a0-968a-24920bf27e14)
+![image](https://github.com/whtmst/SuperwowInstallationRuGuide/blob/main/img/3.png)
 
 <hr>
 
@@ -74,8 +74,8 @@
 Другие CVar'ы и функции можно посмотреть здесь: https://github.com/balakethelock/SuperWoW/wiki/Features
 
 ### 12. Если при запуске вы получаете одну из этих ошибок:
-![image](https://github.com/user-attachments/assets/00807ba1-53a3-4485-be76-a83c866bc48b)
-![image](https://github.com/user-attachments/assets/a017feb5-87d9-429e-9252-156554ecd113)
+![image](https://github.com/whtmst/SuperwowInstallationRuGuide/blob/main/img/4.png)
+![image](https://github.com/whtmst/SuperwowInstallationRuGuide/blob/main/img/5.png)
 
 В Windows: Перейдите в Панель управления > Система и безопасность > Система > Дополнительные параметры системы. В разделе "Быстродействие" нажмите "Параметры", затем перейдите на вкладку "Предотвращение выполнения данных".
 
