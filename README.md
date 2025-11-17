@@ -3,27 +3,27 @@
 
 ![image](https://github.com/whtmst/SuperwowInstallationRuGuide/blob/main/img/1.png)
 
-### 1. Отключите защиту в реальном времени в Windows (она автоматически включится через некоторое время), так как она блокирует загрузку vanillafixes и superwow.
+### 1. Отключите защиту в реальном времени в Windows (она автоматически включится через некоторое время), так как она блокирует загрузку VanillaFixes и superwow.
 <hr>
 
 ![image](https://github.com/whtmst/SuperwowInstallationRuGuide/blob/main/img/2.png)
 
-### 2. Пока открыт центр безопасности Windows, добавьте исключение для папки с Turtle WoW (там, где находится WoW.exe), чтобы защита не удалила vanillafixes/superwow в будущем.
+### 2. Пока открыт центр безопасности Windows, добавьте исключение для папки с Turtle WoW (там, где находится WoW.exe), чтобы защита не удалила VanillaFixes/superwow в будущем.
 <hr>
 
-### 3A. Если вы планируете использовать лаунчер TWOW:
-#### 1. Перейдите на вкладку аддонов и добавьте аддон [Superapi](https://github.com/balakethelock/SuperAPI)
+### 3A. Если вы планируете использовать лаунчер Turtle WOW:
+#### 1. Перейдите на вкладку аддонов и добавьте аддон [SuperAPI](https://github.com/balakethelock/SuperAPI)
 #### 2. Перейдите к [шагу 6](#6-%D1%81%D0%BA%D0%B0%D1%87%D0%B0%D0%B9%D1%82%D0%B5-%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D1%8E%D1%8E-%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8E-superwow-dll-%D0%BE%D1%82%D1%81%D1%8E%D0%B4%D0%B0-httpsgithubcombalakethelocksuperwowreleasestagrelease-%D0%B8-%D0%BF%D0%BE%D0%BC%D0%B5%D1%81%D1%82%D0%B8%D1%82%D0%B5-%D0%B2-%D0%BF%D0%B0%D0%BF%D0%BA%D1%83-%D1%81-turtle-wow-%D1%80%D1%8F%D0%B4%D0%BE%D0%BC-%D1%81-wowexe-%D0%B2%D0%B0%D0%BC-%D0%BD%D1%83%D0%B6%D0%B5%D0%BD-%D1%82%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE-%D1%84%D0%B0%D0%B9%D0%BB-dll-%D0%BB%D0%B0%D1%83%D0%BD%D1%87%D0%B5%D1%80-%D0%BD%D0%B5-%D0%BD%D1%83%D0%B6%D0%B5%D0%BD)
 <br/>
 
-### 3B. Если НЕ используете лаунчер TWOW: 
-Скачайте последнюю версию Vanilla Fixes (версия 1.4 или выше), если у вас её ещё нет, отсюда: https://github.com/hannesmann/vanillafixes/releases и поместите файл в папку с Turtle WoW рядом с WoW.exe.
+### 3B. Если НЕ используете лаунчер Turtle WOW: 
+Скачайте последнюю версию Vanilla Fixes (версия 1.4 или выше), если у вас её ещё нет, отсюда: https://github.com/hannesmann/VanillaFixes/releases и поместите файл в папку с Turtle WoW рядом с WoW.exe.
 
 Если при переключении между окнами у вас появляется чёрный экран, добавьте строку `d3d9.enableDialogMode = True` в файл dxvk.conf.
 <hr>
 
 ### 4. (Опционально) Если вы хотите также установить VanillaTweaks:
-- Скачайте tweaks отсюда: https://github.com/brndd/vanilla-tweaks?tab=readme-ov-file#current-patches и поместите в папку с Turtle WoW рядом с WoW.exe
+- Скачайте их отсюда: https://github.com/brndd/vanilla-tweaks?tab=readme-ov-file#current-patches и поместите в папку с Turtle WoW рядом с WoW.exe
 - Сделайте копию файла `WoW.exe` (на всякий случай)
 - Перетащите `WoW.exe` на `vanilla_tweaks.exe` ИЛИ запустите команду `./vanilla-tweaks WoW.exe` из командной строки в папке, где лежат `WoW.exe` и `vanilla-tweaks.exe`. Если вы хотите указать конкретные настройки (например, увеличение дистанции отображения индикаторов здоровья), используйте командную строку. Смотрите примеры здесь: https://github.com/brndd/vanilla-tweaks?tab=readme-ov-file#usage
 - Переименуйте `WoW_tweaked` в `WoW` ИЛИ `WoW_tweaked.exe` в `WoW.exe` (в зависимости от того, включено ли в Windows отображение расширений файлов). Будьте внимательны, чтобы случайно не получить файл с именем `WoW.exe.exe`, если отображение расширений выключено.
@@ -33,21 +33,21 @@
 
 В иконке на миникарте, которую добавляет этот аддон, вы можете настроить следующие параметры:
 - Автоматический сбор добычи
-- Сквозное нажатие
+- Сквозное нажатие по надгробиям
 - Звук в фоновом режиме
 - Лимит звуков
 - Поле зрения
 - Стиль выделения целей
 <hr>
 
-### 6. Скачайте последнюю версию SuperWoW DLL отсюда: https://github.com/balakethelock/SuperWoW/releases/tag/Release и поместите в папку с Turtle WoW рядом с WoW.exe. Вам нужен ТОЛЬКО файл DLL, лаунчер НЕ нужен.
+### 6. Скачайте последнюю версию SuperWoW DLL отсюда: https://github.com/balakethelock/SuperWoW/releases/tag/Release и поместите в папку с Turtle WoW рядом с WoW.exe. Вам нужен ТОЛЬКО файл DLL - SuperWoWhook.dll, лаунчер SuperWoWlauncher.exe НЕ нужен.
 <hr>
 
-### 7A. Если используете лаунчер TWOW, включите мод superwow на вкладке модов. Это добавит его в файл dlls.txt и предотвратит его удаление при последующих запусках.
+### 7A. Если используете лаунчер Turtle WOW, включите мод SuperWoWhook на вкладке модов. Это добавит его в файл dlls.txt и предотвратит его удаление при последующих запусках.
 
 ### 7B. Если НЕ используете лаунчер, убедитесь, что `SuperWoWhook.dll` указан в вашем файле `dlls.txt`. Этот файл находится в папке с Turtle WoW рядом с WoW.exe.
 
-Если вы используете vanillafixes, он уже должен быть там. Порядок не имеет значения. Вот пример содержимого моего файла dlls.txt:
+Если вы используете VanillaFixes, он уже должен быть там. Порядок не имеет значения. Вот пример содержимого моего файла dlls.txt:
 
 ![image](https://github.com/whtmst/SuperwowInstallationRuGuide/blob/main/img/3.png)
 
@@ -63,10 +63,10 @@
 Скачайте последнюю версию аддона SuperWoW castlib отсюда: https://github.com/balakethelock/SuperAPI_Castlib и поместите в папку `Interface/Addons`, убедившись, что убрали суффикс "-master", который добавляет GitHub.
 <hr>
 
-### 9. Если используете лаунчер TWOW, запускайте игру через него. В противном случае запускайте игру через `VanillaFixes.exe`. При первом запуске должно появиться окно со списком загружаемых DLL, и SuperWoW должен быть среди них.
+### 9. Если используете лаунчер Turtle WOW, запускайте игру через него. В противном случае запускайте игру через `VanillaFixes.exe`. При первом запуске должно появиться окно со списком загружаемых DLL, и SuperWoW должен быть среди них.
 <hr>
 
-### 10. В игре откройте окно создания макроса. Если у вас доступно 512 символов для макроса — Superwow работает корректно.
+### 10. В игре откройте окно создания макроса. Если у вас доступно 512 символов для макроса — SuperWoW работает корректно.
 <hr>
 
 ### 11. (Опционально) Пропустите этот шаг, если уже сделали это при установке SuperAPI. Если вы использовали VanillaTweaks для работы звука, когда игра свёрнута, выполните команду `/run SetCVar("BackgroundSound", "1")`, чтобы снова включить эту функцию. Также можно выполнить `/run SetCVar("UncapSounds", "1");SetCVar("SoundMaxHardwareChannels", "64");SetCVar("SoundSoftwareChannels", "64");`, чтобы позволить игре воспроизводить больше звуков одновременно.
