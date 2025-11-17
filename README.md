@@ -1,19 +1,19 @@
-# Руководство по установке Superwow
+# Руководство по установке SuperWoW
 <hr>
 
-![image](https://github.com/whtmst/SuperwowInstallationRuGuide/blob/main/img/1.png)
+![image](https://github.com/whtmst/SuperWoWInstallationRuGuide/blob/main/img/1.png)
 
-### 1. Отключите защиту в реальном времени в Windows (она автоматически включится через некоторое время), так как она блокирует загрузку VanillaFixes и superwow.
+### 1. Отключите защиту в реальном времени в Windows (она автоматически включится через некоторое время), так как она блокирует загрузку VanillaFixes и SuperWoW.
 <hr>
 
-![image](https://github.com/whtmst/SuperwowInstallationRuGuide/blob/main/img/2.png)
+![image](https://github.com/whtmst/SuperWoWInstallationRuGuide/blob/main/img/2.png)
 
-### 2. Пока открыт центр безопасности Windows, добавьте исключение для папки с Turtle WoW (там, где находится WoW.exe), чтобы защита не удалила VanillaFixes/superwow в будущем.
+### 2. Пока открыт центр безопасности Windows, добавьте исключение для папки с Turtle WoW (там, где находится WoW.exe), чтобы защита не удалила VanillaFixes/SuperWoW в будущем.
 <hr>
 
 ### 3A. Если вы планируете использовать лаунчер Turtle WOW:
 #### 1. Перейдите на вкладку аддонов и добавьте аддон [SuperAPI](https://github.com/balakethelock/SuperAPI)
-#### 2. Перейдите к [шагу 6](https://github.com/whtmst/SuperwowInstallationRuGuide?tab=readme-ov-file#6-%D1%81%D0%BA%D0%B0%D1%87%D0%B0%D0%B9%D1%82%D0%B5-%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D1%8E%D1%8E-%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8E-superwow-dll-%D0%BE%D1%82%D1%81%D1%8E%D0%B4%D0%B0-httpsgithubcombalakethelocksuperwowreleasestagrelease-%D0%B8-%D0%BF%D0%BE%D0%BC%D0%B5%D1%81%D1%82%D0%B8%D1%82%D0%B5-%D0%B2-%D0%BF%D0%B0%D0%BF%D0%BA%D1%83-%D1%81-turtle-wow-%D1%80%D1%8F%D0%B4%D0%BE%D0%BC-%D1%81-wowexe-%D0%B2%D0%B0%D0%BC-%D0%BD%D1%83%D0%B6%D0%B5%D0%BD-%D1%82%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE-%D1%84%D0%B0%D0%B9%D0%BB-dll---superwowhookdll-%D0%BB%D0%B0%D1%83%D0%BD%D1%87%D0%B5%D1%80-superwowlauncherexe-%D0%BD%D0%B5-%D0%BD%D1%83%D0%B6%D0%B5%D0%BD)
+#### 2. Перейдите к [шагу 6](https://github.com/whtmst/SuperWoWInstallationRuGuide?tab=readme-ov-file#6-%D1%81%D0%BA%D0%B0%D1%87%D0%B0%D0%B9%D1%82%D0%B5-%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D1%8E%D1%8E-%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8E-SuperWoW-dll-%D0%BE%D1%82%D1%81%D1%8E%D0%B4%D0%B0-httpsgithubcombalakethelockSuperWoWreleasestagrelease-%D0%B8-%D0%BF%D0%BE%D0%BC%D0%B5%D1%81%D1%82%D0%B8%D1%82%D0%B5-%D0%B2-%D0%BF%D0%B0%D0%BF%D0%BA%D1%83-%D1%81-turtle-wow-%D1%80%D1%8F%D0%B4%D0%BE%D0%BC-%D1%81-wowexe-%D0%B2%D0%B0%D0%BC-%D0%BD%D1%83%D0%B6%D0%B5%D0%BD-%D1%82%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE-%D1%84%D0%B0%D0%B9%D0%BB-dll---SuperWoWhookdll-%D0%BB%D0%B0%D1%83%D0%BD%D1%87%D0%B5%D1%80-SuperWoWlauncherexe-%D0%BD%D0%B5-%D0%BD%D1%83%D0%B6%D0%B5%D0%BD)
 <br/>
 
 ### 3B. Если НЕ используете лаунчер Turtle WOW: 
@@ -49,7 +49,7 @@
 
 Если вы используете VanillaFixes, он уже должен быть там. Порядок не имеет значения. Вот пример содержимого моего файла dlls.txt:
 
-![image](https://github.com/whtmst/SuperwowInstallationRuGuide/blob/main/img/3.png)
+![image](https://github.com/whtmst/SuperWoWInstallationRuGuide/blob/main/img/3.png)
 
 <hr>
 
@@ -74,8 +74,8 @@
 Другие CVar'ы и функции можно посмотреть здесь: https://github.com/balakethelock/SuperWoW/wiki/Features
 
 ### 12. Если при запуске вы получаете одну из этих ошибок:
-![image](https://github.com/whtmst/SuperwowInstallationRuGuide/blob/main/img/4.png)
-![image](https://github.com/whtmst/SuperwowInstallationRuGuide/blob/main/img/5.png)
+![image](https://github.com/whtmst/SuperWoWInstallationRuGuide/blob/main/img/4.png)
+![image](https://github.com/whtmst/SuperWoWInstallationRuGuide/blob/main/img/5.png)
 
 В Windows: Перейдите в Панель управления > Система и безопасность > Система > Дополнительные параметры системы. В разделе "Быстродействие" нажмите "Параметры", затем перейдите на вкладку "Предотвращение выполнения данных".
 
